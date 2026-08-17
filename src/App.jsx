@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import ''
+import React from 'react'
+import './css/estilo'
+import Pedido from './components/Pedido'
 
-
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
     <>
-      
+      <Pedido/>
     </>
   )
 }
